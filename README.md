@@ -10,5 +10,5 @@
 > $> docker-compose up
 
 ## Websites
-> Spark Master: http://localhost:8080
+> Spark Master: http://localhost:8080 <br/>
 > Spark Workers: http://localhost:808[1-3]
