@@ -1,5 +1,10 @@
 # Spark standalone mode in docker containers
 
+
+## Reqired empty folders in host machine
+> /spark/spark-apps # application files<br/>
+> /spark/spark-data # processing files
+
 ## Linux/Mac
 1) Build images
 
@@ -12,3 +17,4 @@
 ## Websites
 > Spark Master: http://localhost:8080 <br/>
 > Spark Workers: http://localhost:808[1-3]
+
