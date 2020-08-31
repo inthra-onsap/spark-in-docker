@@ -1,16 +1,14 @@
 # Spark standalone mode in docker containers
 
-##Linux/Mac
-
+## Linux/Mac
 1) Build images
-$> ./build-images.sh
+
+> $> ./build-images.sh
 
 2) Start Spark-master and Spark-workers by docker-compose.yml
-$> docker-compose up
 
+> $> docker-compose up
 
-##WebUI
-Spark Master: http://localhost:8080
-Spark Workers: http://localhost:808[1-3]
-
-
+## Websites
+> Spark Master: http://localhost:8080
+> Spark Workers: http://localhost:808[1-3]
