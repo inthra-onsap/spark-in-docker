@@ -1,7 +1,7 @@
 # Spark standalone mode in docker containers
 
 
-## Reqired empty folders in host machine
+## Required empty folders in host machine
 > /spark/spark-apps # application files<br/>
 > /spark/spark-data # processing files
 
