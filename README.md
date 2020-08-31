@@ -6,8 +6,8 @@
 > SCALA_VERSION=2.12.4
 
 ## Required empty folders in host machine
-> /spark/spark-apps # application files<br/>
-> /spark/spark-data # processing files
+> /spark/spark-apps # host machine application files will mount to /opt/spark-apps in docker container<br/>
+> /spark/spark-data # host machine processing files will mount to /opt/spark-data in docker container
 
 ## Linux/Mac
 1) Build images
@@ -19,7 +19,7 @@
 > $> docker-compose up
 
 ## Submit app to Spark cluster
-> $> docker exec -it spark-master /spark/bin/spark-submit --class {ClassName} --master spark://spark-master:7077 /spark/spark-apps/{executable}.jar
+> $> docker exec -it spark-master /spark/bin/spark-submit --class {ClassName} --master spark://spark-master:7077 /opt/spark-apps/{executable}.jar
 
 ## WebUI
 > Spark Master: http://localhost:8080 <br/>
