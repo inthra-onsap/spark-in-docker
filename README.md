@@ -19,7 +19,7 @@
 > $> docker-compose up
 
 ## Submit app to Spark cluster
-> $> docker exec spark-master /bin/bash && /spark/bin/spark-submit --class {ClassName} --master spark://spark-master:7077 /spark/spark-apps/{executable}.jar
+> $> docker exec -it spark-master /spark/bin/spark-submit --class {ClassName} --master spark://spark-master:7077 /spark/spark-apps/{executable}.jar
 
 ## WebUI
 > Spark Master: http://localhost:8080 <br/>
