@@ -23,7 +23,7 @@
 > Spark Workers: http://localhost:808[1-3]
 
 ## Submit app to Spark cluster
-> docker exec spark-master /bin/bash && /spark/bin/spark-submit --class {ClassName} --master spark://spark-master:7077 {executable}.jar
+> docker exec spark-master /bin/bash && /spark/bin/spark-submit --class {ClassName} --master spark://spark-master:7077 /spark/spark-apps/{executable}.jar
 
 
 ## Contact
