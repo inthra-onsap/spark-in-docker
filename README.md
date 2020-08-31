@@ -1,2 +1,16 @@
-# spark-ing-docker
-Spawn spark cluster in docker container for running in local machine
+# Spark standalone mode in docker containers
+
+##Linux/Mac
+
+1) Build images
+$> ./build-images.sh
+
+2) Start Spark-master and Spark-workers by docker-compose.yml
+$> docker-compose up
+
+
+##WebUI
+Spark Master: http://localhost:8080
+Spark Workers: http://localhost:808[1-3]
+
+
